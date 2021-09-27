@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caesar ciphre</title>
+  <link rel="stylesheet" href="css/bootstrap5.min.css">
+
+  <style>
+    img{
+      object-fit: cover;
+      height: auto;
+    }
+  </style>
+</head>
+
+<body class="bg-light">  
+  <div class="container">
+    <main>
+      <h1 class="text-warning w-100 mb-3 text-center"><i><b>CIPHRE</b></i></h1>
+      <div class="row py-sm-3">
+        <div class="text-area-original border-5 border-warning rounded p-3  col-sm-5 mb-3 bg-warning bg-opacity-25">
+          <button class="js-btn-clean btn btn-warning text-white mb-3">Clean</button>
+          <textarea class="js-original-txt-area w-100 bg-white bg-opacity-50 border-0 overflow-auto" name="original-text" cols="60" rows="20" style="resize: none"></textarea>
+        </div>
+
+        <div class="col-sm-2 mb-4 d-flex flex-column justify-content-center align-items-center">
+          <select class="js-select-rot w-100 rounded bg-warning bg-opacity-25 border-0 p-2 text-warning mb-2" name="rot-type">
+            <option value="1">ROT-1</option>
+            <option value="2">ROT-2</option>
+            <option value="3">ROT-3</option>
+            <option value="4">ROT-4</option>
+            <option value="5">ROT-5</option>
+            <option value="6">ROT-6</option>
+            <option value="7">ROT-7</option>
+            <option value="8">ROT-8</option>
+            <option value="9">ROT-9</option>
+            <option value="10">ROT-10</option>
+            <option value="11">ROT-11</option>
+            <option value="12">ROT-12</option>
+            <option value="13">ROT-13</option>
+            <option value="14">ROT-14</option>
+            <option value="15">ROT-15</option>
+            <option value="16">ROT-16</option>
+            <option value="17">ROT-17</option>
+            <option value="18">ROT-18</option>
+            <option value="19">ROT-19</option>
+            <option value="20">ROT-20</option>
+            <option value="21">ROT-21</option>
+            <option value="22">ROT-22</option>
+            <option value="23">ROT-23</option>
+            <option value="24">ROT-24</option>
+            <option value="25">ROT-25</option>
+          </select>
+
+          <a class="btn btn-warning text-white" href="decipher.html">Decipher</a>
+        </div>
+
+        <div class="text-area-original border-5 border-warning rounded p-3 col-sm-5 mb-3 bg-warning bg-opacity-25">
+          <button class="js-btn-copy btn btn-warning text-white mb-3">Copy</button>
+          <textarea class="js-ciphred-txt-area w-100 bg-white bg-opacity-50 border-0 overflow-auto" name="original-text" cols="60" rows="20" style="resize: none" readonly></textarea>
+        </div>
+      </div>
+    </main>
+  </div>
+
+
+
+  <script src="js/bootstrap5.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
